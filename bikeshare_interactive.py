@@ -40,9 +40,7 @@ def get_filters():
 
     while True:
         try:
-            # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
-            # TO DO: get user input for month (all, january, february, ... , june)
-            # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
+            
             city = input('Would you like to see data for Chicago, New York City, or Washington: ')
             month = input('Would you like to filter by which month of the year, January, February, ..., June, or include all: ')
             day = input('Would you like to filter by which day of the week, Monday, Tuesday, ..., Sunday, or include all: ')
