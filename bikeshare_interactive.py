@@ -40,7 +40,7 @@ def get_filters():
 
     while True:
         try:
-            
+
             city = input('Would you like to see data for Chicago, New York City, or Washington: ')
             month = input('Would you like to filter by which month of the year, January, February, ..., June, or include all: ')
             day = input('Would you like to filter by which day of the week, Monday, Tuesday, ..., Sunday, or include all: ')
@@ -246,7 +246,5 @@ def main():
         if restart.lower() != 'yes':
             break
 
-    return df
-
 if __name__ == "__main__":
-	df = main()
+	main()
